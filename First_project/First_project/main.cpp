@@ -1,9 +1,16 @@
+// Однострочный комментарий
+
+/*
+	Многострочный комментарий
+*/
+
 #include <iostream>
-using namespace std;
+//using namespace std;
 
 void main()
 {
-	//cout << "Hello, world!";
-	//cout << "Hello, world!" << endl;
-	cout << "Привет, мир!" << endl;
+	//cout << "Привет, мир!" << endl;
+	setlocale(LC_ALL, "Rus"); // Функция, отвечающая за вывод русских символов в консоль
+	//cout << "Привет, мир!" << endl; // Вывод в консоль
+	std::cout << "Привет, мир!" << std::endl; // Вывод в консоль
 }
