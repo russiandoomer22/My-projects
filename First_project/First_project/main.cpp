@@ -1,4 +1,4 @@
-//6. Константы
+//7. Ввод данных. cin
 
 #include <iostream>
 using namespace std;
@@ -7,13 +7,20 @@ void main()
 {
 	setlocale(LC_ALL, "Rus");
 
-	//const int COUNT_DAYS_IN_WEEK = 7;
-	//cout << COUNT_DAYS_IN_WEEK << endl;
-	////COUNT_DAYS_IN_WEEK = 5; // Ошибка
+	int Var, Var2, Var3, Var4;
 
-	const char NEW_LINE = '\n';
-	cout << 1 << NEW_LINE << 2 << endl;
+	cout << "Введите первое число: ";
+	cin >> Var;
 
-	const char TAB = '\t';
-	cout << 3 << TAB << 4 << endl;
+	cout << "Введите второе число: ";
+	cin >> Var2;
+
+	cout << "Введите два числа: ";
+
+	cin >> Var3 >> Var4;
+
+	cout << "Число 1 = " << Var << endl 
+		<< "Число 2 = " << Var2 << endl 
+		<< "Число 3 = " << Var3 << endl 
+		<< "Число 4 = " << Var4 << endl;
 }
