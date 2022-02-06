@@ -1,4 +1,4 @@
-//8. Арифметические операции с числами
+//1. Домашнее задание.
 
 #include <iostream>
 using namespace std;
@@ -7,27 +7,11 @@ void main()
 {
 	setlocale(LC_ALL, "Rus");
 
-	/*int a = 5;
-	cout << a << endl;
-	a = -a;
-	cout << a << endl;*/
-
-	/*int a = -5;
-	cout << a << endl;
-	a = -a;
-	cout << a << endl;*/
-
-	/*int a = 5, b = 2, c;
-
-	c = a + b;
-
-	cout << c << endl;
-	cout << a + b << endl;
-	cout << a * b << endl;*/
-
-	int c;
-	c = 2 + 2 * 2;
-	cout << c << endl;
-	c = (2 + 2) * 2;
-	cout << c << endl;
+	int a, b, c;
+	cout << "Введите 3 числа" << endl;
+	cin >> a >> b >> c;
+	cout << "Сумма: " << a + b + c << endl;
+	cout << "Произведение: " << a * b * c << endl;
+	cout << "Среднее арифметическое без приведения типов: " << (a + b + c) / 3 << endl;
+	cout << "Среднее арифметическое с приведением типов: " << (double)(a + b + c) / 3 << endl;
 }
