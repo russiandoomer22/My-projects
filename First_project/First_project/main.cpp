@@ -1,4 +1,4 @@
-//7. Ввод данных. cin
+//8. Арифметические операции с числами
 
 #include <iostream>
 using namespace std;
@@ -7,20 +7,27 @@ void main()
 {
 	setlocale(LC_ALL, "Rus");
 
-	int Var, Var2, Var3, Var4;
+	/*int a = 5;
+	cout << a << endl;
+	a = -a;
+	cout << a << endl;*/
 
-	cout << "Введите первое число: ";
-	cin >> Var;
+	/*int a = -5;
+	cout << a << endl;
+	a = -a;
+	cout << a << endl;*/
 
-	cout << "Введите второе число: ";
-	cin >> Var2;
+	/*int a = 5, b = 2, c;
 
-	cout << "Введите два числа: ";
+	c = a + b;
 
-	cin >> Var3 >> Var4;
+	cout << c << endl;
+	cout << a + b << endl;
+	cout << a * b << endl;*/
 
-	cout << "Число 1 = " << Var << endl 
-		<< "Число 2 = " << Var2 << endl 
-		<< "Число 3 = " << Var3 << endl 
-		<< "Число 4 = " << Var4 << endl;
+	int c;
+	c = 2 + 2 * 2;
+	cout << c << endl;
+	c = (2 + 2) * 2;
+	cout << c << endl;
 }
